@@ -1,0 +1,11 @@
+name;kind;annotation
+Undocking;Use_Case;
+High_Traffic;Use_Case;
+Low_Traffic;Use_Case;
+Inland_Waterways;Use_Case;
+Open_Water;Use_Case;
+Daytime_Sailing;Use_Case;
+Night_Sailing;Use_Case;
+Shallow_Waterways;Use_Case;
+Deep_Waterways;Use_Case;
+Docking;Use_Case;

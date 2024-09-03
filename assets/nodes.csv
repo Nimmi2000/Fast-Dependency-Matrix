@@ -1,0 +1,47 @@
+name;kind;annotation
+880V_Shore_Charger;Hardware;according to line diagram
+880V_Battery;Hardware;according to line diagram
+880V_Bus_Tie;Hardware;according to line diagram
+880V_Battery_Management_System;Hardware;Gives status signal to strategic planning
+230V_Grid_Inverter;Hardware;according to line diagram
+880V_Motor_Inverter;Hardware;Gives power to stern motor controller
+Stern_Drive_Motor_Controller;Hardware;Gives power and control to stern drive motor
+Stern_Drive_Motor;Hardware;Drives propeller
+Stern_Drive_Steering_Controller;Hardware;Controls stern steering
+Stern_Drive_Steering_Motor;Hardware;Turns the stern propeller to steer the boat
+230V_Consumers;Hardware;Airco etc
+24V_DC_Converter;Hardware;according to line diagram
+Radar;Hardware;
+Perceptor;Hardware;Algorithms
+Communicator;Hardware;Algorithms
+Strategic_Path_Planner;Hardware;Algorithms
+Tactical_Path_Planner;Hardware;Algorithms
+Docker;Hardware;Algorithms
+Decider;Hardware;Algorithms
+Peplink_Router;Hardware;
+Ethernet_Switch;Hardware;
+24V_DC_Charge_Controller;Hardware;according to line diagram
+24V_Battery;Hardware;according to line diagram
+24V_Bus_Tie;Hardware;according to line diagram
+VHF_Radio;Hardware;Goes directly to stern motor controller
+Manual_Steering;Hardware;Goes directly to stern steering controller
+Manual_Throttle;Hardware;Goes directly to stern steering controller
+GPS;Hardware;
+IMU;Hardware;
+Weather_Station;Hardware;
+RGB_Camera;Hardware;
+IR_Camera;Hardware;
+Lidar;Hardware;
+24V_Consumers;Hardware;according to line diagram
+Horn;Hardware;
+Navigation_Lightning;Hardware;
+Sonar_System;Hardware;
+Depth_Sensor;Hardware;
+Speed_Log;Hardware;
+Ethernet_Gateway;Hardware;
+AIS_Transceiver;Hardware;
+Stern_Drive_Propeller;Hardware;
+UPS;Hardware;
+Bow_Thruster;Hardware;no edge since it is not implemented in this boat but can be in the future
+Bow_Thruster_Controller;Hardware;no edge since it is not implemented in this boat but can be in the future
+Vessel_Hull;Hardware;
